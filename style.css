@@ -55,6 +55,35 @@ nav a:hover {
     border-color: #C78C19;
 }
 
-.produtos li: active {
-    border-color: #088c19
+.produtos li: active { 
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descrição {
+    font-size: 18px;
+}
+
+.produtos-preços {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url(bg. jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF
 }
