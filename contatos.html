@@ -33,21 +33,27 @@
                 <label for="telefone">Telefone</label>
                 <input type="text" id="telefone">
 
-                 <label for="mensagens">mensagens</label>
-                 <textarea cols="50" rows="10" id="mensagem"></textarea>
-                  <div>
-                <p>como prefere o nosso contato?</p>
+                <label for="mensagens">mensagens</label>
+                <textarea cols="50" rows="10" id="mensagem"></textarea>
+                 
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="-
+                email" id="radio-email"> Email</label>
+                <label for="radio-telefone"><input type="radio" name="contato" value="
+                -telefone" id="radio-telefone">Telefone</label>
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="
+                -whatsapp" id="radio-whatsapp">WhatsApp</label>
+            </div>
                 
-                 <label for="radio-email">Email</label> 
-                 <input type="radio" value="email" id="radio-email">
-     
-                <label for="radio-telefone">Telefone</label>
-                <input type="radio" value="telefone" id="radio-telefone">
-
-                <label for="radio-whatsapp">whatsapp</label>
-                <input  type="radio" value="whatsapp" id="radio-whatsapp">
-                </div>
-
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+            <select>    
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            
                 <label><input type="checkbox">gostaria de receber nossas atividades por email?</label>
 
                 <input type="submit" value="Enviar formulário">
